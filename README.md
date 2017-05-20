@@ -41,3 +41,5 @@ prop         | type                 | default value
 
 如果文字出现乱码，meta标签设置为utf-8
 `<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />`
+
+<img src="git9378.png" height="256" width="256">
