@@ -7,6 +7,9 @@ Inspired by [zpao/qrcode.react](https://github.com/zpao/qrcode.react), also supp
 
 ```sh
 npm install qrcode-react
+
+npm run build
+
 ```
 
 ## Usage
