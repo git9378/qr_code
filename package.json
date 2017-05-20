@@ -1,0 +1,38 @@
+{
+  "name": "qrcode-react",
+  "version": "0.1.14",
+  "description": "React component to generate QRCode with logo",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t [ babelify --presets [ react ] ] example/index.js -o example/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cssivision/qrcode-react.git"
+  },
+  "keywords": [
+    "react",
+    "qrcode",
+    "logo"
+  ],
+  "author": "sivision.chen <cssivision@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cssivision/qrcode-react/issues"
+  },
+  "homepage": "https://github.com/cssivision/qrcode-react#readme",
+  "peerDependencies": {
+    "react": "0.12 - 15.5"
+  },
+  "dependencies": {
+    "qr.js": "0.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.3.0",
+    "babel-preset-react": "^6.1.18",
+    "babelify": "^7.2.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.3"
+  }
+}
