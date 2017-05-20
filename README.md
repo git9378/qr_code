@@ -40,9 +40,12 @@ prop         | type                 | default value
 
 <img src="qrcode.png" height="256" width="256">
 
-在原有组件的基础上添加参数，可以填入文字，实现的方法是将文字用canvas画出来，转成base64文件，然后绘制到到二维码canvas的中间，
+在原有组件的基础上添加参数，可以填入文字，实现的方法是将文字用canvas画出来，转成base64文件，然后绘制到二维码canvas的中间。
 
-如果文字出现乱码，meta标签设置为utf-8
+如果文字出现乱码，meta标签设置为utf-8。
+  
+canvas不能长按保存，移动端如果需要长按保存图片，可以转成base64图片（toDataURL）再插入文档中。
+
 `<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />`
 
 <img src="git9378.png" height="256" width="256">
